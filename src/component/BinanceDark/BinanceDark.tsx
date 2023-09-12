@@ -17,7 +17,7 @@ function BinanceDark(props) {
     }
 
     if (limit >= 40) {
-      background = "#232732";
+      background = "#2332";
     }
 
     return background;
@@ -39,7 +39,7 @@ function BinanceDark(props) {
           <div className="binance__battery">
             <div className="binance__cover">
               <div className="binance__level"   style={{ width: `${limit}%`, background: CheckstatusBattery(), }}></div>
-              <span>70</span>
+              <span>{limit}</span>
             </div>
             <div className="binance__border"></div>
           </div>
