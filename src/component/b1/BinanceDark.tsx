@@ -2,6 +2,9 @@ import React from "react";
 import "./Bdark.css";
 import { IoIosWifi } from "react-icons/io";
 import Dates from "../../shared/dates";
+import { BiSignal5} from 'react-icons/bi'
+import Left from "../../shared/icons/Left";
+import { AiOutlineWifi } from "react-icons/ai";
 function B1(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
@@ -25,30 +28,31 @@ function B1(props) {
   return (
     <div className="bdark__mode">
       <div className="binancedark__modeheader">
-        <div className="modeheader__left">
+        <div className="modeheader__left b1__">
           <span>{Dates.currentTime()}</span>
+          <Left />
         </div>
-        <div className="modeheader__right">
-          <div className="binanance__signal">
-            <div className="signal__1"></div>
-            <div className="signal__2"></div>
-            <div className="signal__3"></div>
-            <div className="signal__4"></div>
-          </div>
-          <IoIosWifi size={19} />
-          <div className="binance__battery">
-            <div className="binance__cover">
-              <div className="binance__level"   style={{ width: `${limit}%`, background: CheckstatusBattery(), }}></div>
-              <span>{limit}</span>
+        <div className="b1__right">
+<AiOutlineWifi />
+          <BiSignal5 size={15} />
+          <div className="style__b1">
+            <div className="battery__b1">
+              <span className="b1__number">32%</span>
+
+              <div className="style__b1">
+                <div className="b1__top"></div>
+                <div className="b1__content">
+                  <div className="b1__level"></div>
+                </div>
+              </div>
             </div>
-            <div className="binance__border"></div>
           </div>
         </div>
       </div>
 
       <div className="binance__subheader">
         <div className="back__binance">
-          <img src="/BlackBinance/back.png" alt="" width={19}  />
+          <img src="/BlackBinance/back.png" alt="" width={19} />
         </div>
       </div>
 
@@ -82,7 +86,6 @@ function B1(props) {
         </div>
         <div className="button__yellow">Ver historial</div>
         <div className="image__b1">
-
           <img src="/mobile/b1.png" alt="" width={211} />
         </div>
       </div>

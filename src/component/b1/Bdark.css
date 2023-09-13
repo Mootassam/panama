@@ -29,6 +29,12 @@
   line-height: normal;
 }
 
+.b1__ {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: white;
+}
 .binancedark__bottom {
   position: absolute;
   bottom: 7px;
@@ -272,4 +278,56 @@ styling the header of the binnacne in the rihgt section */
   justify-content: center;
   margin-top: 23px;
   margin-bottom: 10px;
+}
+
+/* styling the battery1 */
+
+.style__b1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.battery__b1 {
+  display: flex;
+  gap: 2px;
+}
+
+.b1__top {
+  width: 3px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #666a73;
+}
+.b1__content {
+  width: 7px;
+  height: 9px;
+  background: #666a73;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.b1__number {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.b1__level {
+  width: 7px;
+  height: 3px;
+  background: #f9fcff;
+}
+
+.b1__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: whitesmoke;
 }
