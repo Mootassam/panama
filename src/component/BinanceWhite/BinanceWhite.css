@@ -1,20 +1,15 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+
+@font-face {
+  font-family: "NotaW01-XBold";
+  src: url("/assets/fonts/Nota\ W01\ XBold.ttf") format("truetype");
+}
 .binance__white {
   width: 369px;
   height: 800px;
   background-color: #fff;
   position: relative;
 }
-
-@font-face {
-  font-family: "NotaW01-XBold";
-  src: url("fonts/Nota\ W01\ XBold.ttf") format("truetype");
- 
-}
-
-
-
 /* 
 styling the battery */
 .binance__whiteheader {

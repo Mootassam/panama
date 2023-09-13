@@ -1,6 +1,6 @@
 @font-face {
   font-family: "NotaW01-XBold";
-  src: url("/fonts/Nota\ W01\ XBold.ttf");
+  src: url("fonts/Nota W01 XBold.ttf");
 }
 
 .bdark__mode {
@@ -85,7 +85,8 @@
 
 .detaill__second {
   color: #7a818b;
-  font-family: "NotaW01-XBold";
+  font-family: "NotaW01-XBold", Arial, sans-serif;
+
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -133,7 +134,7 @@
 
 .binance__amount {
   color: #fff;
-  font-family: "NotaW01-XBold";
+  font-family: "NotaW01-XBold", Arial, sans-serif;
   font-size: 33px;
   font-style: normal;
   font-weight: 400;
@@ -143,7 +144,7 @@
 
 .binance__currency {
   color: #fff;
-  font-family: "NotaW01-XBold";
+  font-family: "NotaW01-XBold", Arial, sans-serif;
   font-size: 33px;
   font-style: normal;
   font-weight: 400;
