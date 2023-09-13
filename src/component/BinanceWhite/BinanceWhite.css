@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "NotaW01-XBold";
-  src: url("/assets/fonts/Nota\ W01\ XBold.ttf") format("truetype");
+  src: url("/fonts/Nota\ W01\ XBold.ttf") format("truetype");
 }
 .binance__white {
   width: 369px;
