@@ -6,6 +6,7 @@ import Screenshot from "./shared/Screenshot";
 import { DrawingApp } from "./shared/DrawingApp";
 
 import BinanceDark from "./component/BinanceDark/BinanceDark";
+import BinanceWhite from "./component/BinanceWhite/BinanceWhite";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -79,6 +80,7 @@ function App() {
             )}
           </div>
           {value === "bdark" && <BinanceDark amount={amount} />}
+          {value === "bwhite" && <BinanceWhite amount={amount} />}
         </div>
         <div></div>
         <div></div>
