@@ -25,8 +25,8 @@ function DetaillBinance(props) {
       <div className="detaillbinance__content">
         <div className="detaillbinance__amount">
           <div className="monto">Monto</div>
-          <div className="binance__amount">
-            <div className="amount__">100</div>
+          <div className="binances__amount">
+            <div className="amount__">{props.amount}</div>
             <div className="currency">USDT</div>
           </div>
         </div>
