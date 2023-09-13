@@ -1,6 +1,6 @@
 @font-face {
   font-family: "NotaW01-XBold";
-  src: url("fonts/Nota W01 XBold.ttf");
+  src: url("/fonts/nota.ttf") format("truetype");;
 }
 
 .bdark__mode {
