@@ -60,7 +60,7 @@ function W3(props) {
       <div className="whitebinance__bottom">
         <div className="detaill__button">
           <span className="estimated">Estimated completion time</span>
-          <span className="date__white">2023-09-11 7:07:20 p. m..</span>
+          <span className="date__white">{Dates.datetime()}</span>
         </div>
         <div className="receive__email">You will receive an email once withdrawal is completed....</div>
         <div className="whitebinance__button __margin__bottom">
