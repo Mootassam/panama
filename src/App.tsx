@@ -4,7 +4,6 @@ import Header from "./layout/Header";
 import Sidebar from "./layout/sidebar/Sidebar";
 import Screenshot from "./shared/Screenshot";
 import { DrawingApp } from "./shared/DrawingApp";
-
 import BinanceDark from "./component/BinanceDark/BinanceDark";
 import BinanceWhite from "./component/BinanceWhite/BinanceWhite";
 import DetaillBinance from "./component/DetaillBinance/DetaillBinance";
@@ -14,6 +13,8 @@ import W1 from "./component/w1/BinanceWhite";
 import W2 from "./component/w2/BinanceWhite";
 import W3 from "./component/w3/BinanceWhite";
 import Detalles from "./component/Detalles/Detalles";
+import Detalles2 from "./component/Detalles2/Detalles";
+import DetaillBinance2 from "./component/DetaillBinance2/DetaillBinance";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -90,12 +91,15 @@ function App() {
           {value === "bwhite" && <BinanceWhite amount={amount} />}
           {value === "detaillBinance" && <DetaillBinance amount={amount} />}
           {value === "b1" && <B1 amount={amount} />}
-          {value === "b2" && <B2 amount={amount} />}    
+          {value === "b2" && <B2 amount={amount} />}
           {value === "w1" && <W1 amount={amount} />}
           {value === "w2" && <W2 amount={amount} />}
           {value === "w3" && <W3 amount={amount} />}
           {value === "detalles" && <Detalles amount={amount} />}
+          {value === "detalles2" && <Detalles2 amount={amount} />}
+          {value === "detaillBinance2" && <DetaillBinance2 amount={amount} />}
 
+  
         </div>
         <div></div>
         <div></div>
