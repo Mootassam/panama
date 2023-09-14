@@ -2,6 +2,7 @@ import React,{useState,useEffect} from "react";
 import "./Detalles.css";
 import Dates from "../../shared/dates";
 import Left from "../../shared/icons/Left";
+import Names from "../../shared/Names";
 function Detalles(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
@@ -120,8 +121,8 @@ function Detalles(props) {
           <div className="detalles__from">
             <div className="detalles__fromtitle">From</div>
             <div className="full__address">
-              TW3MMqhPjGTLZ48SGZ8NezH1ftGpcaQ
-              <br /> kgo
+              {Names.Randomaly()}
+              <br /> {Names.Randomaly3()}
             </div>
           </div>
 
@@ -139,8 +140,8 @@ function Detalles(props) {
         <div className="detalles__white3">
           <div className="numero__transaccion">Número de transacción</div>
           <div className="white3__right">
-            <span>7bfc0e10b6b77e32ff055f7dae3</span>
-            <span>3d0e7208ee0d83eb83796dc6ea</span>
+            <span>{Names.generateRandomString()}</span>
+            <span>{Names.generateRandomString()}</span>
             <label htmlFor="">See details</label>
           </div>
         </div>

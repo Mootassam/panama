@@ -108,6 +108,12 @@ class Dates {
 
     return currentDate;
   }
+  static Detalles(){ 
+    const date  = moment().format(yyyy)
+    return date;
+  }
+
+
 }
 
 export default Dates;
