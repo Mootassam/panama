@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
 .app__detalles {
   width: 360px;
   height: 800px;
@@ -82,11 +84,13 @@
 }
 
 .detalles__white3 {
-  width: 333px;
   height: 92px;
-  flex-shrink: 0;
+
   border-radius: 10px;
   background: #fff;
+  display: flex;
+  padding: 24px 0 19px 18px;
+  gap: 3px;
 }
 
 .detalles__bottom {
@@ -108,21 +112,74 @@
   gap: 8px;
 }
 
+.detalles__detail {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.send__detalles {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .usdt__detalles {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 237px;
+  color: #000;
+  font-family: Inter;
+  font-size: 11.7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
+
 .bar__usdt {
   display: flex;
 }
 
+.Tron {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.second__detalles__title {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.trx__amount {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .second__detalles {
   display: flex;
-  gap: 12px;
+
   padding-top: 16px;
 }
+
 .second__detalles__title {
   max-width: 60px;
 }
@@ -145,4 +202,85 @@
 .detalles__To {
   display: flex;
   gap: 45px;
+}
+
+.small__bar {
+  display: flex;
+  margin: 15px 0 17px;
+  gap: 65px;
+}
+
+.detalles__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white3__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.white3__right > span {
+  color: #000;
+  font-family: Inter;
+  font-size: 11.8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.white3__right > label {
+  padding-top: 9px;
+  color: #919193;
+  font-family: Inter;
+  font-size: 9.9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.numero__transaccion {
+  color: #919193;
+  font-family: Inter;
+  font-size: 11.9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detalles__fromtitle {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detalles__totitle {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.fullcode {
+  color: #000;
+  font-family: Inter;
+  font-size: 11.9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.full__address {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

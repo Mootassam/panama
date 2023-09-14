@@ -26,15 +26,15 @@ function Detalles(props) {
           <div className="first__detalles">
             <div className="detalles__detail">Details</div>
             <div className="detalles__detaillright">
-              <span>Send</span>
+              <span className="send__detalles">Send</span>
               <span className="usdt__detalles">
-                - 100 USDT <img src="/Detalles/usdt.png" alt="" width={25} />
+                - {props.amount} USDT <img src="/Detalles/usdt.png" alt="" width={25} />
               </span>
               <div className="bar__usdt">
                 <img src="/Detalles/bar.png" alt="" width={239} />
               </div>
               <div className="">
-                <span>Tron</span>
+                <span className="Tron">Tron</span>
               </div>
               <div className="bar__usdt">
                 <img src="/Detalles/bar.png" alt="" width={239} />
@@ -45,22 +45,40 @@ function Detalles(props) {
             <div className="second__detalles__title">
               Recom pensa para los mineros
             </div>
-            <div>- 27.6009 TRX</div>
+            <div className="trx__amount">- 27.6009 TRX</div>
           </div>
         </div>
         <div className="detalles__white2">
           <div className="detalles__from">
-            <div>From</div>
-            <div className="full__address">TW3MMqhPjGTLZ48SGZ8NezH1ftGpca <br /> Qkgo</div>
+            <div className="detalles__fromtitle">From</div>
+            <div className="full__address">
+              TW3MMqhPjGTLZ48SGZ8NezH1ftGpcaQ<br /> kgo
+            </div>
           </div>
+
+          <div className="small__bar">
+                <div></div>
+              <img src="/Detalles/smallbar.png" alt="" />
+            </div>
           <div className="detalles__To">
-            <div>To</div>
-            <div>TWoy8YBKNTokyxkuFYuMyPaZyGYBUHc <br /> d47</div>
+            <div className="detalles__totitle">To</div>
+            <div className="fullcode">
+              TWoy8YBKNTokyxkuFYuMyPaZyGYBUHc <br /> d47
+            </div>
           </div>
         </div>
-        <div className="detalles__white3"></div>
+        <div className="detalles__white3">
+          <div className="numero__transaccion">Número de transacción</div>
+          <div className="white3__right">
+            <span>7bfc0e10b6b77e32ff055f7dae3</span>
+            <span>3d0e7208ee0d83eb83796dc6ea</span>
+            <label htmlFor="">See details</label>
+          </div>
+        </div>
       </div>
-      <div className="detalles__bottom"></div>
+      <div className="detalles__bottom">
+        <img src="/mobile/d1.png" alt="" width="182" />
+      </div>
     </div>
   );
 }
