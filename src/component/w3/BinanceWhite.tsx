@@ -1,6 +1,7 @@
 import React from "react";
 import "./BinanceWhite.css";
 import Dates from "../../shared/dates";
+import Left from "../../shared/icons/Left";
 function W3(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
@@ -30,8 +31,8 @@ function W3(props) {
         <div className="rightbinance__white">
           <div className="signal__whitebinance">
             <div className="whitesignal__1"></div>
-            <div className="whitesignal__2"></div>
-            <div className="whitesignal__3"></div>
+            <div className="whitesignal__2 __dark"></div>
+            <div className="whitesignal__3 __dark"></div>
             <div className="whitesignal__4"></div>
           </div>
           <div className="lte__binance">LTE</div>

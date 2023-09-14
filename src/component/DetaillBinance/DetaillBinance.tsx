@@ -1,16 +1,41 @@
 import React from "react";
 import "./DetaillBinance.css";
+import Dates from "../../shared/dates";
+import Left from "../../shared/icons/Left";
+import Names from "../../shared/Names";
 function DetaillBinance(props) {
+  const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
+
   return (
     <div className="detaill__binance">
       <div className="detaill__header">
-        <div className="detaill__left"></div>
+        <div className="detaill__left">
+
+          <div className="detaill__signal">
+            <img src="/mobile/lte.png" alt="" className="lte__image" width={11}/>
+            <div className="signal__detaill">
+              <div className="detaill__signal1"></div>
+              <div className="detaill__signal2"></div>
+              <div className="detaill__signal3"></div>
+              <div className="detaill__signal4"></div>
+              <div className="detaill__signal5"> </div>
+            </div>
+          </div>
+
+          
+          <Left />
+        </div>
         <div className="detaill__right">
           <div className="detaill__battery">
-            <div className="binancedetaill__cover"></div>
+            <div className="binancedetaill__cover">
+              <div
+                className="level__cover"
+                style={{ width: `${limit}%` }}
+              ></div>
+            </div>
             <div className="binancedetaill__border"> </div>
           </div>
-          <span className="detaill__time">19:22</span>
+          <span className="detaill__time">{Dates.currentTime()}</span>
         </div>
       </div>
       <div className="detaill__subheader">
@@ -79,9 +104,9 @@ function DetaillBinance(props) {
           <div className="other__left">Txid</div>
           <div className="txid__detail">
             <div className="txid__left">
-              <span>e63af7c2062fc69149db25e4414</span>
-              <span>5ec73f6b3d9efa054d4c5bf47bc</span>
-              <span>b07fb10d64</span>
+              <span>{Names.generateRandomString()}</span>
+              <span>{Names.generateRandomString()}</span>
+              <span>{Names.generateRandomString10()}</span>
             </div>
             <div className="txid__right">
               <img src="/DetaillBinance/copy.png" alt="" width={16} />
@@ -94,7 +119,7 @@ function DetaillBinance(props) {
         </div>
         <div className="date__space">
           <div className="other__left">Fecha</div>
-          <div className="date__"> 2023-09-12 19:19:15</div>
+          <div className="date__">{Dates.datetime()}</div>
         </div>
       </div>
       <div className="down__box">
@@ -111,8 +136,7 @@ function DetaillBinance(props) {
         </div>
       </div>
       <div className="detaill__footer">
-
-      <img src="/DetaillBinance/mobile.png" alt="" width={168} />
+        <img src="/DetaillBinance/mobile.png" alt="" width={168} />
       </div>
     </div>
   );

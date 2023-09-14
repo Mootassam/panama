@@ -14,6 +14,12 @@
   justify-content: space-between;
 }
 
+.detaill__left {
+  display: flex;
+  gap: 4px;
+  color: white;
+}
+
 .detaill__time {
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -34,6 +40,8 @@
   height: 11px;
   border-radius: 3px;
   border: 1px solid #c8ccd5;
+  overflow: hidden;
+  padding: 1.2px;
 }
 
 .binancedetaill__border {
@@ -333,4 +341,49 @@ styling the content */
 
 .down__box {
   margin-top: 39px;
+}
+
+.level__cover {
+  width: 100%;
+  height: 100%;
+  background-color: #73787c;
+}
+.detaill__signal {
+  display: flex;
+  align-items: first baseline;
+
+}
+.lte__image {
+  margin-right: -2px;
+}
+
+.signal__detaill {
+  display: flex;
+  align-items: baseline;
+  gap: 1.3px;
+}
+.detaill__signal1 {
+  width: 2px;
+  height: 3px;
+  background-color: #fff;
+}
+.detaill__signal2 {
+  width: 2px;
+  height: 5px;
+  background-color: #fff;
+}
+.detaill__signal3 {
+  width: 2px;
+  height: 7px;
+  background-color: #fff;
+}
+.detaill__signal4 {
+  width: 2px;
+  height: 9px;
+  background-color: #575b66;
+}
+.detaill__signal5 {
+  width: 2px;
+  height: 11px;
+  background-color: #575b66;
 }

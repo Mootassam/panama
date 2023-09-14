@@ -55,6 +55,12 @@ styling the battery */
   gap: 4px;
 }
 
+.whiteheader__time {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
 .whiteheader__time > span {
   color: #000;
   font-family: Inter;
@@ -86,6 +92,9 @@ styling the battery */
   height: 4px;
   border-radius: 1px;
   background: #000;
+}
+.__dark {
+  background-color: #000 !important;
 }
 .whitesignal__2 {
   width: 3px;

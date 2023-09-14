@@ -98,7 +98,7 @@ function B2(props) {
         </div>
         <div className="button__yellow">Ver historial</div>
         <div className="image__b1">
-          <img src="/mobile/b2.png" alt="" width={170} />
+          <img src="/mobile/b3.png" alt="" width={182} />
         </div>
       </div>
     </div>

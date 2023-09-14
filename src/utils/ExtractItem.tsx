@@ -17,9 +17,10 @@ class ExtractItem {
     twitt?,
     alipay?,
     tiktok?,
+    missedcall?,
   ) {
     const limit = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
-    let array = [whats, teleg, instag, message, clock, face, twitt, alipay,tiktok];
+    let array = [whats, teleg, instag, message, clock, face, twitt,tiktok,missedcall];
 
     const item = array
       .sort(() => Math.random() - Math.random())
