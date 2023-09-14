@@ -118,6 +118,7 @@ styling the battery */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 58px;
 }
 .logo__binancewhite {
   padding-bottom: 25px;
@@ -161,8 +162,6 @@ styling the battery */
   line-height: normal;
   text-decoration-line: underline;
 }
-
-
 
 .receive__email {
   color: #a7a8aa;
@@ -217,7 +216,6 @@ styling the battery */
   padding-top: 12px;
 }
 
-
 .whitebinance__button {
   width: 339px;
   height: 45px;
@@ -237,7 +235,6 @@ styling the battery */
   margin-bottom: 5px;
 }
 
-
-.__margin__bottom { 
+.__margin__bottom {
   margin-bottom: 15px !important;
 }

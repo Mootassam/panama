@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Roboto:wght@400;500;700;900&display=swap");
 @font-face {
   font-family: "NotaW01-XBold";
   src: url("/fonts/nota.ttf") format("truetype");
@@ -272,4 +273,98 @@ styling the header of the binnacne in the rihgt section */
   justify-content: center;
   margin-top: 23px;
   margin-bottom: 10px;
+}
+
+/* styling the batterty for the template2 */
+
+.b2__battery {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 1.3px;
+}
+
+.b2__cover {
+  width: 18px;
+  height: 11px;
+  border-radius: 2px;
+  border: 1px solid #979797;
+  display: flex;
+  padding-left: 1px;
+  align-items: center;
+}
+
+.b2__border {
+  width: 1px;
+  height: 5px;
+  background: #fff;
+}
+
+.b2__level {
+  width: 13%;
+  height: 6.5px;
+  background: #ffff;
+}
+.b2__globalbattery {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.b2__number {
+  color: white;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* styling the signal 2  */
+.__b2 {
+  display: flex;
+  gap: 3px;
+  color: white;
+  align-items: center;
+}
+.b2_signal {
+  display: flex;
+  align-items: baseline;
+  gap: 1.6px;
+}
+
+.signal__b0  { 
+  width: 2px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.signal__b1 {
+  width: 2px;
+  height: 3px;
+  background-color: #fff;
+ 
+}
+.signal__b2 {
+  width: 2px;
+  height: 6px;
+  background-color: #fff;
+}
+
+.signal__b3 {
+  width: 2px;
+  height: 9px;
+  background-color: #fff;
+}
+
+.signal__b4 {
+  width: 2px;
+  height: 11px;
+  background-color: #fff;
+}
+
+.signal__ {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
 }

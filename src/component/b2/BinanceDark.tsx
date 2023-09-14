@@ -2,6 +2,8 @@ import React from "react";
 import "./Bdark.css";
 import { IoIosWifi } from "react-icons/io";
 import Dates from "../../shared/dates";
+import Left from "../../shared/icons/Left";
+import {BsAlarm} from 'react-icons/bs'
 function B2(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
@@ -25,30 +27,44 @@ function B2(props) {
   return (
     <div className="bdark__mode">
       <div className="binancedark__modeheader">
-        <div className="modeheader__left">
-          <span>{Dates.currentTime()}</span>
-        </div>
-        <div className="modeheader__right">
-          <div className="binanance__signal">
-            <div className="signal__1"></div>
-            <div className="signal__2"></div>
-            <div className="signal__3"></div>
-            <div className="signal__4"></div>
+        <div className="modeheader__left __b2">
+          <div className="signal__">
+          <div className="b2_signal">
+            <div className="signal__b1"></div>
+            <div className="signal__b2"></div>
+            <div className="signal__b3"></div>
+            <div className="signal__b4"></div>
           </div>
-          <IoIosWifi size={19} />
-          <div className="binance__battery">
-            <div className="binance__cover">
-              <div className="binance__level"   style={{ width: `${limit}%`, background: CheckstatusBattery(), }}></div>
-              <span>{limit}</span>
+          <div className="modeheader__left __b2">
+          <div className="b2_signal">
+            <div className="signal__b1"></div>
+            <div className="signal__b2"></div>
+            <div className="signal__b3"></div>
+            <div className="signal__b4"></div>
+          </div>
+          </div>
+        </div>
+        <Left />
+        </div>
+        
+        <div className="modeheader__right __b2">
+
+          <BsAlarm size={12} />
+          <div className="b2__globalbattery">
+            <div className="b2__battery">
+              <div className="b2__cover">
+                <div className="b2__level" style={{width:`${limit}%`}}></div>
+              </div>
+              <div className="b2__border"> </div>
             </div>
-            <div className="binance__border"></div>
+            <span className="b2__number">{Dates.currentTime()}</span>
           </div>
         </div>
       </div>
 
       <div className="binance__subheader">
         <div className="back__binance">
-          <img src="/BlackBinance/back.png" alt="" width={19}  />
+          <img src="/BlackBinance/back.png" alt="" width={19} />
         </div>
       </div>
 
@@ -82,7 +98,6 @@ function B2(props) {
         </div>
         <div className="button__yellow">Ver historial</div>
         <div className="image__b1">
-
           <img src="/mobile/b2.png" alt="" width={170} />
         </div>
       </div>

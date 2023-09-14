@@ -2,7 +2,7 @@ import React from "react";
 import "./Bdark.css";
 import { IoIosWifi } from "react-icons/io";
 import Dates from "../../shared/dates";
-import { BiSignal5} from 'react-icons/bi'
+import { BiSignal5 } from "react-icons/bi";
 import Left from "../../shared/icons/Left";
 import { AiOutlineWifi } from "react-icons/ai";
 function B1(props) {
@@ -33,7 +33,7 @@ function B1(props) {
           <Left />
         </div>
         <div className="b1__right">
-<AiOutlineWifi />
+          <AiOutlineWifi />
           <BiSignal5 size={15} />
           <div className="style__b1">
             <div className="battery__b1">

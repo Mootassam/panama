@@ -118,6 +118,7 @@ styling the battery */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 58px;
 }
 .logo__binancewhite {
   padding-bottom: 25px;
