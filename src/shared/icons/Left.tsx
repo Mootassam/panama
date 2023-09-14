@@ -28,11 +28,8 @@ function Left() {
     teleg,
     instag,
     message,
-    wechat,
-    alipay,
     twitt,
     snapchat,
-    tiktok,
     missedcall
   );
 

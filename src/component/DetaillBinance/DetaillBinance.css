@@ -16,6 +16,7 @@
 
 .detaill__left {
   display: flex;
+  align-items: baseline;
   gap: 4px;
   color: white;
 }

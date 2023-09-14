@@ -37,12 +37,12 @@ function B1(props) {
           <BiSignal5 size={15} />
           <div className="style__b1">
             <div className="battery__b1">
-              <span className="b1__number">32%</span>
+              <span className="b1__number">{limit}%</span>
 
               <div className="style__b1">
                 <div className="b1__top"></div>
                 <div className="b1__content">
-                  <div className="b1__level"></div>
+                  <div className="b1__level" style={{height :`${limit}%`}}></div>
                 </div>
               </div>
             </div>

@@ -3,6 +3,7 @@ import "./DetaillBinance.css";
 import Dates from "../../shared/dates";
 import Left from "../../shared/icons/Left";
 import Names from "../../shared/Names";
+import { BsWifi } from "react-icons/bs";
 function DetaillBinance(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
@@ -10,9 +11,13 @@ function DetaillBinance(props) {
     <div className="detaill__binance">
       <div className="detaill__header">
         <div className="detaill__left">
-
           <div className="detaill__signal">
-            <img src="/mobile/lte.png" alt="" className="lte__image" width={11}/>
+            <img
+              src="/mobile/lte.png"
+              alt=""
+              className="lte__image"
+              width={11}
+            />
             <div className="signal__detaill">
               <div className="detaill__signal1"></div>
               <div className="detaill__signal2"></div>
@@ -22,10 +27,11 @@ function DetaillBinance(props) {
             </div>
           </div>
 
-          
           <Left />
         </div>
         <div className="detaill__right">
+
+          <BsWifi size={15}  color="white"/>
           <div className="detaill__battery">
             <div className="binancedetaill__cover">
               <div
