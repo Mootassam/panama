@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./Detalles.css";
 import Dates from "../../shared/dates";
 import Left from "../../shared/icons/Left";
@@ -29,13 +29,13 @@ function Detalles(props) {
 
   const randomizeVol2Signal = () => {
     setShowVol2Signal(Math.random() < 0.5); // Randomly set visibility
-    setAddNewClass(Math.random() < 0.5);   // Randomly add/remove __new class
+    setAddNewClass(Math.random() < 0.5); // Randomly add/remove __new class
   };
 
   useEffect(() => {
-    randomizeVol2Signal()
-  }, [randomizeVol2Signal])
-  
+    randomizeVol2Signal();
+  }, [randomizeVol2Signal]);
+
   return (
     <div className="app__detalles">
       <div className="detalles__header">
@@ -49,27 +49,37 @@ function Detalles(props) {
             <div className="detalles__signal">
               <div className="detalles__1"></div>
               <div className="detalles__2"></div>
-              <div className={`detalles__3 ${addNewClass ? '__new' : ''}`}></div>
+              <div
+                className={`detalles__3 ${addNewClass ? "__new" : ""}`}
+              ></div>
               <div className="detalles__4"></div>
             </div>
           </div>
           {showVol2Signal && (
-        <div className="vol2__signal">
-          <img src="mobile/vol2.png" alt="" width={14} />
-          <div className="detalles__signal">
-            <div className="detalles__1"></div>
-            <div className="detalles__2"></div>
-            <div className={`detalles__3 ${addNewClass ? '__new' : ''}`}></div>
-            <div className="detalles__4"></div>
-          </div>
-        </div>
-      )}
+            <div className="vol2__signal">
+              <img src="mobile/vol2.png" alt="" width={14} />
+              <div className="detalles__signal">
+                <div className="detalles__1"></div>
+                <div className="detalles__2"></div>
+                <div
+                  className={`detalles__3 ${addNewClass ? "__new" : ""}`}
+                ></div>
+                <div className="detalles__4"></div>
+              </div>
+            </div>
+          )}
           <div className="battery__detalles">
             <span className="detalles__level">{limit}%</span>
             <div className="detalles__batt">
               <div className="border__topdetalles"></div>
               <div className="content__topdetalles">
-                <div className="level__detalles" style={{height:`${limit}%` , backgroundColor :CheckstatusBattery() }}></div>
+                <div
+                  className="level__detalles"
+                  style={{
+                    height: `${limit}%`,
+                    backgroundColor: CheckstatusBattery(),
+                  }}
+                ></div>
               </div>
             </div>
           </div>
@@ -89,7 +99,7 @@ function Detalles(props) {
           <img src="/Detalles/circle.png" alt="" width={44} />
         </div>
         <div className="detalles__exito">Con éxito</div>
-        <div className="exito__date">6 de sep de 2023 08:36 +0400</div>
+        <div className="exito__date">{Dates.Detalles()}</div>
         <div className="detalles__white">
           <div className="first__detalles">
             <div className="detalles__detail">Details</div>

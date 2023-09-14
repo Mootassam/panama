@@ -1,5 +1,5 @@
 import moment from "moment";
-
+import moments from "moment-timezone";
 class Dates {
   static datetime() {
     const formattedDateTime = moment().format("YYYY-MM-DD HH:mm:ss");
@@ -108,10 +108,13 @@ class Dates {
 
     return currentDate;
   }
-  static Detalles(){ 
-    const date  = moment().format(yyyy)
-    return date;
+  static Detalles() {
+    const formattedDate = moments().tz('America/Panama').format('D [de] MMM [de] YYYY HH:mm ZZ');
+  
+    // Remove the colon in the timezone offset
+    return formattedDate
   }
+  
 
 
 }
