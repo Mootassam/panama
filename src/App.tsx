@@ -10,12 +10,10 @@ import BinanceWhite from "./component/BinanceWhite/BinanceWhite";
 import DetaillBinance from "./component/DetaillBinance/DetaillBinance";
 import B1 from "./component/b1/BinanceDark";
 import B2 from "./component/b2/BinanceDark";
-import B3 from "./component/b3/BinanceDark";
-import B4 from "./component/b4/BinanceDark";
 import W1 from "./component/w1/BinanceWhite";
 import W2 from "./component/w2/BinanceWhite";
 import W3 from "./component/w3/BinanceWhite";
-import W4 from "./component/w4/BinanceWhite";
+import Detalles from "./component/Detalles/Detalles";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -92,14 +90,12 @@ function App() {
           {value === "bwhite" && <BinanceWhite amount={amount} />}
           {value === "detaillBinance" && <DetaillBinance amount={amount} />}
           {value === "b1" && <B1 amount={amount} />}
-          {value === "b2" && <B2 amount={amount} />}
-          {value === "b3" && <B3 amount={amount} />}
-          {value === "b4" && <B4 amount={amount} />}
-
+          {value === "b2" && <B2 amount={amount} />}    
           {value === "w1" && <W1 amount={amount} />}
           {value === "w2" && <W2 amount={amount} />}
           {value === "w3" && <W3 amount={amount} />}
-          {value === "w4" && <W4 amount={amount} />}
+          {value === "detalles" && <Detalles amount={amount} />}
+
         </div>
         <div></div>
         <div></div>

@@ -1,0 +1,148 @@
+.app__detalles {
+  width: 360px;
+  height: 800px;
+  background: #f8f9fb;
+  position: relative;
+}
+
+.detalles__header {
+  padding: 12px 21px 0 22px;
+}
+
+.detalles__time {
+  color: #5b5c5e;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detalles__subheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 11px 0 14px;
+}
+
+.subheader__text {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detalles__content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.detalles__exito {
+  color: #6eb893;
+  font-family: Inter;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 9px;
+}
+
+.exito__date {
+  color: #949597;
+  font-family: Inter;
+  font-size: 9.7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 7px;
+}
+
+.detalles__white {
+  width: 333px;
+  height: 213px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 14px;
+  margin-top: 33px;
+  padding: 20px 20px 19px 17px;
+}
+
+.detalles__white2 {
+  width: 333px;
+  height: 128px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 12px;
+}
+
+.detalles__white3 {
+  width: 333px;
+  height: 92px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.detalles__bottom {
+  position: absolute;
+  bottom: 0;
+  background-color: #010101;
+  width: 100%;
+  height: 46px;
+}
+
+.first__detalles {
+  display: flex;
+  gap: 18px;
+}
+
+.detalles__detaillright {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.usdt__detalles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 237px;
+}
+.bar__usdt {
+  display: flex;
+}
+
+.second__detalles {
+  display: flex;
+  gap: 12px;
+  padding-top: 16px;
+}
+.second__detalles__title {
+  max-width: 60px;
+}
+
+.detalles__white2 {
+  padding: 22px 21px 15px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detalles__from {
+  display: flex;
+  gap: 30px;
+}
+
+.full__address {
+  max-width: 200px;
+}
+
+.detalles__To {
+  display: flex;
+  gap: 45px;
+}

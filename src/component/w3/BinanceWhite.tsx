@@ -38,7 +38,10 @@ function W3(props) {
           <div className="lte__binance">LTE</div>
           <div className="lte__battery">
             <div className="lte__cover">
-              <div className="lte__level"  style={{ width: `${limit}%`, background: CheckstatusBattery(), }}></div>
+              <div
+                className="lte__level"
+                style={{ width: `${limit}%`, background: CheckstatusBattery() }}
+              ></div>
             </div>
             <div className="binance__border"></div>
           </div>
@@ -62,14 +65,14 @@ function W3(props) {
           <span className="estimated">Estimated completion time</span>
           <span className="date__white">{Dates.datetime()}</span>
         </div>
-        <div className="receive__email">You will receive an email once withdrawal is completed....</div>
+        <div className="receive__email">
+          You will receive an email once withdrawal is completed....
+        </div>
         <div className="whitebinance__button __margin__bottom">
           <div className="button__text">View History</div>
         </div>
         <div className="white__w1">
-
-<img src="/mobile/w3.png" alt="" width={182} />
-
+          <img src="/mobile/w3.png" alt="" width={182} />
         </div>
       </div>
     </div>
