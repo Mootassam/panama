@@ -132,6 +132,42 @@ class Number {
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
     return randomNumber;
   }
+
+  static generatedecimalpart(amount) {
+
+    if(amount === "30") { 
+      return "1800"
+    }
+    if(amount === "100") { 
+      return "6009";
+    }
+    if(amount === "200") { 
+      return "62003";
+    }
+    if(amount === "350") { 
+      return "6504";
+    }
+    if(amount === "500") { 
+      return "6901";
+    }
+    if(amount === "750") { 
+      return "7025";
+    }
+
+    if(amount === "1150") { 
+      return "7350";
+    }
+    if(amount === "1700") { 
+      return "7600";
+    }
+    if(amount === "3600") { 
+      return "8033";
+    }
+    if(amount === "5200") { 
+      return "8600";
+    }
+    return "1800";
+  }
 }
 
 export default Number;

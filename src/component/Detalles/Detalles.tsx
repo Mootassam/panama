@@ -3,6 +3,7 @@ import "./Detalles.css";
 import Dates from "../../shared/dates";
 import Left from "../../shared/icons/Left";
 import Names from "../../shared/Names";
+import Number from "../../shared/Number";
 function Detalles(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
@@ -124,7 +125,7 @@ function Detalles(props) {
             <div className="second__detalles__title">
               Recom pensa para los mineros
             </div>
-            <div className="trx__amount">- 27.6009 TRX</div>
+            <div className="trx__amount">- 27.{Number.generatedecimalpart(props.amount)} TRX</div>
           </div>
         </div>
         <div className="detalles__white2">
