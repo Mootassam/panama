@@ -142,7 +142,7 @@ class Number {
       return "6009";
     }
     if(amount === "200") { 
-      return "62003";
+      return "6200";
     }
     if(amount === "350") { 
       return "6504";
